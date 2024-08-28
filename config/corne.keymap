@@ -38,10 +38,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp N0     &kp N1        &kp N2        &kp N3        &kp N4     &kp N5    &kp N6  &kp N7  &kp N8    &kp N9    &kp N0    &kp BSPC
-&kp LCTRL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans     &trans    &trans  &trans  &trans    &trans    &kp UP    &trans
-&kp LSHFT  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &trans     &trans    &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp RIGHT
-                                       &trans        &kp SPACE  &trans    &trans  &trans  &kp RALT
+&kp N0            &kp N1        &kp N2        &kp N3        &kp N4     &kp N5    &kp N6  &kp N7  &kp N8    &kp N9    &kp N0    &kp DELETE
+&kp LEFT_SHIFT    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans     &trans    &trans  &trans  &trans    &trans    &kp UP    &trans
+&kp LEFT_CONTROL  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &trans     &trans    &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp RIGHT
+                                              &trans        &kp SPACE  &trans    &trans  &trans  &kp RALT
             >;
 
             label = "NUM/ARW";
